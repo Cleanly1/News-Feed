@@ -12,7 +12,7 @@ $authors = [
 	['name' => 'Miss author', 'id' => 69],
 	['name' => 'Batman', 'id' => 0110],
 	['name' => 'Bruh', 'id' => 21],
-	['name' => 'Jag själv', 'id' => 1999],
+	['name' => 'Jultomten', 'id' => 0404],
 ];
 
 
@@ -24,3 +24,5 @@ $posts = [
 		'date' => '2019.10.23',
 		'likes' => 12],
 	];
+
+echo $posts[0]['author'];

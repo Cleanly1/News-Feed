@@ -10,22 +10,28 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Plain News</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Plain News</title>
 </head>
 <body>
-  <header>
-		<h1>Fuck the new</h1>
-  </header>
+	<header>
+		<h1>Fuck the news</h1>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li style="float:right"><a class="active" href="#about"><img src=""></a></li>
+		</ul>
+	</header>
+	<article class="">
 
-  <footer>
+	</article>
+	<footer>
 
-  </footer>
-  <script type="text/javascript" src="script.js">
+	</footer>
+	<script type="text/javascript" src="script.js">
 
-  </script>
+	</script>
 </body>
 </html>

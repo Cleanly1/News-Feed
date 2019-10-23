@@ -33,10 +33,10 @@ require __DIR__ . "/functions.php";
 				</ul></li>
 			</ul>
 		</header>
-		<article class="">
+		<article>
 			<?php foreach (sortingArrays($articles) as $article) { ?>
 				<img class="articleImages" src="<?php echo $article['image'] ?>" alt="">
-				<p><?php echo $article['content']?> </p>
+				<p class="articleContent"><?php echo $article['content']?> </p>
 			<?php } ?>
 		</article>
 		<footer>

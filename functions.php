@@ -15,3 +15,13 @@ function sortingArrays(array $articles): array  {
 	});
 	return $articles;
 }
+
+
+function dateGet(string $date){
+  $dateSeperated = str_split($date);
+	$day = intval(implode('', array_splice($dateSeperated,6,2)));
+	$month = implode('', array_splice($dateSeperated,4,2));
+	$year = implode('', array_splice($dateSeperated,0,4));
+
+  die(var_dump($day));
+}

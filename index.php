@@ -19,19 +19,24 @@
 <body>
 	<header>
 		<h1>Fuck the news</h1>
-		<ul>
+		<ul class="nav">
 			<li><a href="#">Home</a></li>
-			<li style="float:right"><a class="active" href="#about"><img src=""></a></li>
-		</ul>
-	</header>
-	<article class="">
+			<li class="dropdown">
+				More
+				<ul class="dropdown-content">
+					<li>hej</li>
+					<li>hej</li>
+				</ul ></li>
+			</ul>
+		</header>
+		<article class="">
 
-	</article>
-	<footer>
+		</article>
+		<footer>
 
-	</footer>
-	<script type="text/javascript" src="script.js">
+		</footer>
+		<script type="text/javascript" src="script.js">
 
-	</script>
-</body>
-</html>
+		</script>
+	</body>
+	</html>

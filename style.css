@@ -1,40 +1,69 @@
+body {
+	margin:0;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	flex-flow: column nowrap;
+}
+h1 {
+	align-self: center;
+}
+.nav {
+	display: flex;
+	flex-flow:row nowrap;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: show;
+	background-color: #333;
+}
+a {
+	text-decoration: none;
+	color: white;
+	padding: 14px 16px;
+}
+li {
+	display: block;
+	color: white;
+	text-align: center;
+	padding-top:15px;
+	padding-bottom:15px;
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+	background-color: #111;
+}
+.dropdown {
+	position: relative;
+	padding: 14px 16px;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: black;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 14px 16px;
+	z-index: 1;
+}
+.dropdown:hover {
+	display: block;
+	background-color: #111;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
 
 @media screen and (max-width: 411px) {
 	body {
 		background-color: red;
 		margin:0;
 	}
-	header {
-		display: flex;
-		justify-content: center;
-		flex-flow: column nowrap;
-	}
-	h1 {
-		align-self: center;
-	}
-	ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		background-color: #333;
-	}
 
-	li {
-		float: left;
-	}
-
-	li a {
-		display: block;
-		color: white;
-		text-align: center;
-		padding: 14px 16px;
-		text-decoration: none;
-	}
-
-	/* Change the link color to #111 (black) on hover */
-	li a:hover {
-		background-color: #111;
-	}
 
 }

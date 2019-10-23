@@ -23,15 +23,15 @@ $articles = [
 		'content' => 'Content for template',
 		'author' => $authors[0]['name'],
 		'date' => 20191028,
-		'likes' => 12
+		'likes' => 80
 	],
 	[
-		'title' => 'Template',
-		'image' => 'img src',
-		'content' => 'Content for template',
+		'title' => 'Hackerman strikes again!',
+		'image' => '/images/avatar.png',
+		'content' => 'The infamous hacker vinkla have done another IT-heist',
 		'author' => $authors[2]['name'],
 		'date' => 20191023,
-		'likes' => 12
+		'likes' => 99999
 	],
 	[
 		'title' => 'Template',
@@ -39,7 +39,7 @@ $articles = [
 		'content' => 'Content for template',
 		'author' => $authors[3]['name'],
 		'date' => 20191025,
-		'likes' => 12
+		'likes' => 23
 	],
 	[
 		'title' => 'Template',
@@ -47,6 +47,6 @@ $articles = [
 		'content' => 'Content for template',
 		'author' => $authors[1]['name'],
 		'date' => 20191023,
-		'likes' => 12
+		'likes' => 1
 	],
 ];

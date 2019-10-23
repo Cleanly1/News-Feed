@@ -33,7 +33,6 @@ a {
 	text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 .liiteam a:hover {
 	background-color: #111;
 }
@@ -60,12 +59,20 @@ a {
 .dropdown:hover .dropdown-content {
 	display: block;
 }
+article {
+	display:flex;
+	justify-content: center;
+	flex-flow: column wrap;
+	align-content: center;
+}
 
 @media screen and (max-width: 411px) {
 	body {
-		background-color: red;
+		background-color: lightblue;
 		margin:0;
 	}
-
+	.articleImages {
+		width:100px;
+	}
 
 }

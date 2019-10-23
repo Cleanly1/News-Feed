@@ -35,7 +35,8 @@ require __DIR__ . "/functions.php";
 		</header>
 		<article class="">
 			<?php foreach (sortingArrays($articles) as $article) { ?>
-				<p><?php echo $article['content'] . ' ' . $article['author'] . ' ' . $article['date'] ?> </p>
+				<img class="articleImages" src="<?php echo $article['image'] ?>" alt="">
+				<p><?php echo $article['content']?> </p>
 			<?php } ?>
 		</article>
 		<footer>

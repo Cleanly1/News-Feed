@@ -42,6 +42,10 @@ h1 {
 	color: white;
 	padding: 14px 50px;
 }
+.liIteamDropdown {
+	text-align: center;
+	list-style-type: none;
+}
 .liiteam {
 	display: block;
 	color: white;
@@ -78,6 +82,9 @@ h1 {
 }
 .dropdown:hover .dropdown-content {
 	display: block;
+}
+.linksDropdown:hover {
+	background-color: #111;
 }
 .articleContent {
 	text-align: center;

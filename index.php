@@ -6,7 +6,7 @@
 require __DIR__ . "/data.php";
 require __DIR__ . "/functions.php";
 
-dateGet($articles[0]['date']);
+// dateGet($articles[0]['date']);
 
 ?>
 
@@ -24,12 +24,12 @@ dateGet($articles[0]['date']);
 	<header>
 		<h1>"Fuck the news" news</h1>
 		<ul class="nav">
-			<li class="liiteam"><a href="index.php" class="linkHome" >Home</a></li>
+			<li class="liiteam"><a href="index.php" class="linkHome">Home</a></li>
 			<li class="dropdown">
 				More
 				<ul class="dropdown-content">
-					<li><a href="#" class="linksDropdown" >Sport</a></li>
-					<li><a href="#" class="linksDropdown" >Politik</a></li>
+					<li class="liIteamDropdown"><a href="#" class="linksDropdown">Sport</a></li>
+					<li class="liIteamDropdown"><a href="#" class="linksDropdown">Politik</a></li>
 				</ul></li>
 			</ul>
 		</header>

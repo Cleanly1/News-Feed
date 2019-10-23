@@ -16,10 +16,11 @@ function sortingArrays(array $articles): array  {
 	return $articles;
 }
 
-
+//not completed yet need to have if statements for getting the name of the month
+//use intval() to convert the string to int 
 function dateGet(string $date){
   $dateSeperated = str_split($date);
-	$day = intval(implode('', array_splice($dateSeperated,6,2)));
+	$day = implode('', array_splice($dateSeperated,6,2));
 	$month = implode('', array_splice($dateSeperated,4,2));
 	$year = implode('', array_splice($dateSeperated,0,4));
 

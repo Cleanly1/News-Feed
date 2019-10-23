@@ -16,13 +16,12 @@ $authors = [
 ];
 
 
-$posts = [
+$articles = [
 	[
 		'title' => 'Template',
+		'image' => 'img src',
 		'content' => 'Content for template',
 		'author' => $authors[0]['name'],
 		'date' => '2019.10.23',
 		'likes' => 12],
 	];
-
-echo $posts[0]['author'];

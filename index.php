@@ -18,19 +18,19 @@
 </head>
 <body>
 	<header>
-		<h1>Fuck the news</h1>
+		<h1>"Fuck the news" news</h1>
 		<ul class="nav">
-			<li><a href="#">Home</a></li>
+			<li class="liiteam"><a href="#">Home</a></li>
 			<li class="dropdown">
 				More
 				<ul class="dropdown-content">
-					<li>hej</li>
-					<li>hej</li>
-				</ul ></li>
+					<li class="liiteam">hej</li>
+					<li class="liiteam">hej</li>
+				</ul></li>
 			</ul>
 		</header>
 		<article class="">
-
+			<?php require __DIR__ . "/data.php"; ?>
 		</article>
 		<footer>
 

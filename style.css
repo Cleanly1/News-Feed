@@ -24,7 +24,7 @@ a {
 	color: white;
 	padding: 14px 16px;
 }
-li {
+.liiteam {
 	display: block;
 	color: white;
 	text-align: center;
@@ -34,11 +34,13 @@ li {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+.liiteam a:hover {
 	background-color: #111;
 }
 .dropdown {
+	float:right;
 	position: relative;
+	color: white;
 	padding: 14px 16px;
 }
 

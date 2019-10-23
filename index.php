@@ -3,6 +3,10 @@
 // This is the file where you can keep your HTML markup. We should always try to
 // keep us much logic out of the HTML as possible. Put the PHP logic in the top
 // of the files containing HTML or even better; in another PHP file altogether.
+require __DIR__ . "/data.php";
+require __DIR__ . "/functions.php";
+
+
 
 ?>
 
@@ -30,7 +34,9 @@
 			</ul>
 		</header>
 		<article class="">
-			<?php require __DIR__ . "/data.php"; ?>
+			<?php foreach (sortingArrays($articles) as $article) { ?>
+				<p><?php echo $article['content'] . ' ' . $article['author'] . ' ' . $article['date'] ?> </p>
+			<?php } ?>
 		</article>
 		<footer>
 

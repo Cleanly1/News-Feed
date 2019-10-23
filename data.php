@@ -22,6 +22,31 @@ $articles = [
 		'image' => 'img src',
 		'content' => 'Content for template',
 		'author' => $authors[0]['name'],
-		'date' => '2019.10.23',
-		'likes' => 12],
-	];
+		'date' => 20191028,
+		'likes' => 12
+	],
+	[
+		'title' => 'Template',
+		'image' => 'img src',
+		'content' => 'Content for template',
+		'author' => $authors[2]['name'],
+		'date' => 20191023,
+		'likes' => 12
+	],
+	[
+		'title' => 'Template',
+		'image' => 'img src',
+		'content' => 'Content for template',
+		'author' => $authors[3]['name'],
+		'date' => 20191025,
+		'likes' => 12
+	],
+	[
+		'title' => 'Template',
+		'image' => 'img src',
+		'content' => 'Content for template',
+		'author' => $authors[1]['name'],
+		'date' => 20191023,
+		'likes' => 12
+	],
+];

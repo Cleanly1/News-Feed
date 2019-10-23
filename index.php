@@ -24,17 +24,18 @@ require __DIR__ . "/functions.php";
 	<header>
 		<h1>"Fuck the news" news</h1>
 		<ul class="nav">
-			<li class="liiteam"><a href="#">Home</a></li>
+			<li class="liiteam"><a href="index.php" class="linkHome" >Home</a></li>
 			<li class="dropdown">
 				More
 				<ul class="dropdown-content">
-					<li class="liiteam">hej</li>
-					<li class="liiteam">hej</li>
+					<li><a href="#" class="linksDropdown" >Sport</a></li>
+					<li><a href="#" class="linksDropdown" >Politik</a></li>
 				</ul></li>
 			</ul>
 		</header>
 		<article>
 			<?php foreach (sortingArrays($articles) as $article) { ?>
+				<h2><?php echo $article['title'] ?></h2>
 				<img class="articleImages" src="<?php echo $article['image'] ?>" alt="">
 				<p class="articleContent"><?php echo $article['content']?> </p>
 			<?php } ?>

@@ -21,6 +21,22 @@ $articles = [
 		'title' => 'Template',
 		'image' => 'img src',
 		'content' => 'Content for template',
+		'author' => $authors[4]['name'],
+		'date' => 20191023,
+		'likes' => 1
+	],
+	[
+		'title' => 'Template',
+		'image' => 'img src',
+		'content' => 'Content for template',
+		'author' => $authors[3]['name'],
+		'date' => 20191023,
+		'likes' => 1
+	],
+	[
+		'title' => 'Template',
+		'image' => 'img src',
+		'content' => 'Content for template',
 		'author' => $authors[0]['name'],
 		'date' => 20191028,
 		'likes' => 80
@@ -40,6 +56,38 @@ $articles = [
 		'author' => $authors[3]['name'],
 		'date' => 20191025,
 		'likes' => 23
+	],
+	[
+		'title' => 'Template',
+		'image' => 'img src',
+		'content' => 'Content for template',
+		'author' => $authors[1]['name'],
+		'date' => 20191023,
+		'likes' => 1
+	],
+	[
+		'title' => 'Template',
+		'image' => 'img src',
+		'content' => 'Content for template',
+		'author' => $authors[1]['name'],
+		'date' => 20191023,
+		'likes' => 1
+	],
+	[
+		'title' => 'Template',
+		'image' => 'img src',
+		'content' => 'Content for template',
+		'author' => $authors[1]['name'],
+		'date' => 20191023,
+		'likes' => 1
+	],
+	[
+		'title' => 'Template',
+		'image' => 'img src',
+		'content' => 'Content for template',
+		'author' => $authors[1]['name'],
+		'date' => 20191023,
+		'likes' => 1
 	],
 	[
 		'title' => 'Template',

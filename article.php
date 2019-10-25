@@ -14,9 +14,7 @@ if (isset($_GET['id'])) {
 <?php require __DIR__ . '/head.html'; ?>
 
 <body>
-	<article class="">
+	<article >
+		<h2> <?php echo $article['title']; ?> </h2>
 		<?php echo $article['content']; ?>
-	</article>
-	
-</body>
-</html>
+	<?php require __DIR__ . '/footer.php'; ?>

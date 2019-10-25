@@ -19,7 +19,7 @@ require __DIR__ . "/functions.php";
 			<h2><?php echo $article['title'] ?></h2>
 		</a>
 		<img class="articleImages" src="<?php echo $article['image'] ?>" alt="article image">
-		<p class="articleContent"><?php echo $article['content']?> </p>
+		<p class="articleContent"><?php echo shortenString($article['content']) ?> </p>
 		<div class="articleFooter">
 			<b>Author:</b> <?php echo $article['author'] ?>
 			<?php $date = dateGet($article['date']); ?>

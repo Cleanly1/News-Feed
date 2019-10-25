@@ -5,10 +5,10 @@ declare(strict_types=1);
 // This is the file where you can keep all your functions. Remember to NOT
 // execute/run any functions in this file. Keep it dumb.
 /**
- * Sorts the articles array by date
- * @param  array $array [description]
- * @return array        [description]
- */
+* Sorts the articles array by date
+* @param  array $array [description]
+* @return array        [description]
+*/
 function sortingArrays(array $articles): array {
 	usort($articles, function($arrayItem1, $arrayItem2) {
 		return $arrayItem1['date'] <=> $arrayItem2['date'];
@@ -16,21 +16,41 @@ function sortingArrays(array $articles): array {
 	return array_reverse($articles);
 }
 
-//not completed yet need to have if statements for getting the name of the month
+
 //use intval() to convert the string to int 
+/**
+* Seperates the date int value to to seperate string values
+* @param  string $date the date
+* @return array        
+*/
 function dateGet(string $date): array {
-  $dateSeperated = str_split($date);
+	$dateSeperated = str_split($date);
 	$dateFinsihed = [ 'day' => implode('', array_splice($dateSeperated,6,2)),
 	'month' => implode('', array_splice($dateSeperated,4,2)),
 	'year' => implode('', array_splice($dateSeperated,0,4)),];
-
-  return array_reverse($dateFinsihed);
+	
+	return array_reverse($dateFinsihed);
 }
 
-function articleGet($articles, $id) {
+/**
+* Gets the individual article from its id
+* @param  array $articles article array
+* @param  int $id the date
+* @return array        
+*/
+function articleGet(array $articles, int $id):array {
 	foreach ($articles as $article) {
 		if($article['id'] == $id){
 			return $article;
 		}
+	}
+}
+
+
+function shortenString(string $article): string {
+	if (strlen($article) > 30){
+		return substr($article,0,36).'...';
+	} else {
+		return $article;
 	}
 }

@@ -6,7 +6,7 @@
 require __DIR__ . "/data.php";
 require __DIR__ . "/functions.php";
 
-// dateGet($articles[0]['date']);
+//dateGet($articles[0]['date']);
 
 ?>
 
@@ -39,8 +39,9 @@ require __DIR__ . "/functions.php";
 				<img class="articleImages" src="<?php echo $article['image'] ?>" alt="article image">
 				<p class="articleContent"><?php echo $article['content']?> </p>
 				<div class="articleFooter">
-					<h3><?php echo $article['author'] ?></h3>
-					<?php echo $article['date'] ?>
+					<b>Author:</b> <?php echo $article['author'] ?>
+					<?php $date = dateGet($article['date']); ?>
+					<b>Published date:</b> <?php echo $date['year'] . '-' . $date['month'] . '-' . $date['day'];?>
 				</div>
 			<?php } ?>
 

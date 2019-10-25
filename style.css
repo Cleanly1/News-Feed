@@ -5,7 +5,10 @@ body {
 	overflow: scroll;
 	background-color: #ebf6f9;
 }
-
+article {
+	margin-bottom:10px;
+	padding-bottom: 10px;
+}
 header {
 	position: fixed;
 	display: flex;

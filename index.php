@@ -12,28 +12,7 @@ require __DIR__ . "/functions.php";
 ?>
 
 
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Plain News</title>
-</head>
-<body>
-	<header>
-		<h1>"Fuck the news" news</h1>
-		<ul class="nav">
-			<li class="liiteam"><a href="index.php" class="linkHome">Home</a></li>
-			<li class="dropdown">
-				More
-				<ul class="dropdown-content">
-					<li class="liIteamDropdown"><a href="#" class="linksDropdown">Sport</a></li>
-					<li class="liIteamDropdown"><a href="#" class="linksDropdown">Politik</a></li>
-				</ul></li>
-			</ul>
-		</header>
+<?php require __DIR__ . '/head.html'; ?>
 		<article>
 			<?php foreach (sortingArrays($articles) as $article) { ?>
 				<a href="article.php?id=<?php echo $article['id'] ?>" class="articleTitle">

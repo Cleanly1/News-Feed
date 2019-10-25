@@ -2,9 +2,6 @@
 
 declare(strict_types=1);
 
-// This is the file where you can keep your data arrays such as articles and
-// authors.
-
 
 
 $authors = [
@@ -22,7 +19,7 @@ $articles = [
 		'image' => 'img src',
 		'content' => 'Content for template',
 		'author' => $authors[4]['name'],
-		'date' => 20191023,
+		'date' => 20191025,
 		'likes' => 1
 	],
 	[
@@ -30,7 +27,7 @@ $articles = [
 		'image' => 'img src',
 		'content' => 'Content for template',
 		'author' => $authors[3]['name'],
-		'date' => 20191023,
+		'date' => 20191024,
 		'likes' => 1
 	],
 	[
@@ -43,16 +40,16 @@ $articles = [
 	],
 	[
 		'title' => 'Hackerman strikes again!',
-		'image' => '/images/avatar.png',
-		'content' => 'The infamous hacker vinkla have done another IT-heist',
+		'image' => '/vinkla.png',
+		'content' => file_get_contents(__DIR__ . '/test.txt'),
 		'author' => $authors[2]['name'],
-		'date' => 20191023,
+		'date' => 20191030,
 		'likes' => 99999
 	],
 	[
 		'title' => 'Template',
 		'image' => 'img src',
-		'content' => 'Content for template',
+		'content' => file_get_contents(__DIR__ . '/test.txt'),
 		'author' => $authors[3]['name'],
 		'date' => 20191025,
 		'likes' => 23
@@ -86,7 +83,7 @@ $articles = [
 		'image' => 'img src',
 		'content' => 'Content for template',
 		'author' => $authors[2]['name'],
-		'date' => 20191023,
+		'date' => 20191029,
 		'likes' => 21
 	],
 	[
@@ -94,7 +91,7 @@ $articles = [
 		'image' => 'img src',
 		'content' => 'Content for template',
 		'author' => $authors[4]['name'],
-		'date' => 20191023,
+		'date' => 20190823,
 		'likes' => 0
 	],
 ];

@@ -13,7 +13,7 @@ function sortingArrays(array $articles): array  {
 	usort($articles, function($arrayItem1, $arrayItem2) {
 		return $arrayItem1['date'] <=> $arrayItem2['date'];
 	});
-	return $articles;
+	return array_reverse($articles);
 }
 
 //not completed yet need to have if statements for getting the name of the month

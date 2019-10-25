@@ -103,6 +103,7 @@ article {
 		display: flex;
 		flex-flow: column;
 	}
+	
 	article {
 		display:flex;
 		align-self: center;
@@ -142,9 +143,7 @@ article {
 		display: flex;
 		flex-flow: column;
 	}
-	.articleImages {
-		width:50%;
-	}
+	
 	article {
 		display:flex;
 		align-self: center;
@@ -165,9 +164,6 @@ article {
 		display: flex;
 		flex-flow: column;
 	}
-	.articleImages {
-		width:50%;
-	}
 	article {
 		display:flex;
 		align-self: center;
@@ -187,9 +183,6 @@ article {
 		margin:0;
 		display: flex;
 		flex-flow: column;
-	}
-	.articleImages {
-		width:50%;
 	}
 
 	article {
@@ -234,9 +227,6 @@ article {
 		display: flex;
 		flex-flow: column;
 	}
-	.articleImages {
-		width:50%;
-	}
 
 	article {
 		display:flex;
@@ -258,9 +248,6 @@ article {
 	}
 	h1 {
 		font-size: 20px;
-	}
-	.articleImages {
-		width:50%;
 	}
 
 	article {

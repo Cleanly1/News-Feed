@@ -9,6 +9,7 @@ article {
 	margin-bottom:10px;
 	padding-bottom: 10px;
 }
+
 header {
 	position: fixed;
 	display: flex;
@@ -98,6 +99,10 @@ h1 {
 article {
 	box-shadow: 0px 3px 50px 0px rgba(0,0,0,0.5);
 	background-color: lightblue;
+}
+.articleTitle {
+	text-decoration: none;
+	
 }
 
 @media screen and (max-width: 1440px) {

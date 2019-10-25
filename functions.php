@@ -9,7 +9,7 @@ declare(strict_types=1);
  * @param  array $array [description]
  * @return array        [description]
  */
-function sortingArrays(array $articles): array  {
+function sortingArrays(array $articles): array {
 	usort($articles, function($arrayItem1, $arrayItem2) {
 		return $arrayItem1['date'] <=> $arrayItem2['date'];
 	});
@@ -18,11 +18,19 @@ function sortingArrays(array $articles): array  {
 
 //not completed yet need to have if statements for getting the name of the month
 //use intval() to convert the string to int 
-function dateGet(string $date){
+function dateGet(string $date): array {
   $dateSeperated = str_split($date);
 	$dateFinsihed = [ 'day' => implode('', array_splice($dateSeperated,6,2)),
 	'month' => implode('', array_splice($dateSeperated,4,2)),
 	'year' => implode('', array_splice($dateSeperated,0,4)),];
 
   return array_reverse($dateFinsihed);
+}
+
+function articleGet($articles, $id) {
+	foreach ($articles as $article) {
+		if($article['id'] == $id){
+			return $article;
+		}
+	}
 }

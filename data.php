@@ -15,6 +15,7 @@ $authors = [
 
 $articles = [
 	[
+		'id' => 1,
 		'title' => 'Template',
 		'image' => 'img src',
 		'content' => file_get_contents(__DIR__ . '/articles/article1.txt'),
@@ -23,6 +24,7 @@ $articles = [
 		'likes' => 1
 	],
 	[
+		'id' => 2,
 		'title' => 'Template',
 		'image' => 'img src',
 		'content' => file_get_contents(__DIR__ . '/articles/article2.txt'),
@@ -31,6 +33,7 @@ $articles = [
 		'likes' => 1
 	],
 	[
+		'id' => 3,
 		'title' => 'Template',
 		'image' => 'img src',
 		'content' => file_get_contents(__DIR__ . '/articles/article3.txt'),
@@ -39,6 +42,7 @@ $articles = [
 		'likes' => 80
 	],
 	[
+		'id' => 4,
 		'title' => 'Hackerman strikes again!',
 		'image' => '/images/vinkla.png',
 		'content' => file_get_contents(__DIR__ . '/articles/article4.txt'),
@@ -47,6 +51,7 @@ $articles = [
 		'likes' => 99999
 	],
 	[
+		'id' => 5,
 		'title' => 'Template',
 		'image' => 'img src',
 		'content' => file_get_contents(__DIR__ . '/articles/article5.txt'),
@@ -55,6 +60,7 @@ $articles = [
 		'likes' => 23
 	],
 	[
+		'id' => 6,
 		'title' => 'Template',
 		'image' => 'img src',
 		'content' => file_get_contents(__DIR__ . '/articles/article6.txt'),
@@ -63,6 +69,7 @@ $articles = [
 		'likes' => 56
 	],
 	[
+		'id' => 7,
 		'title' => 'Template',
 		'image' => 'img src',
 		'content' => file_get_contents(__DIR__ . '/articles/article7.txt'),
@@ -71,6 +78,7 @@ $articles = [
 		'likes' => 69
 	],
 	[
+		'id' => 8,
 		'title' => 'Template',
 		'image' => 'img src',
 		'content' => file_get_contents(__DIR__ . '/articles/article8.txt'),
@@ -79,6 +87,7 @@ $articles = [
 		'likes' => 1
 	],
 	[
+		'id' => 9,
 		'title' => 'Template',
 		'image' => 'img src',
 		'content' => file_get_contents(__DIR__ . '/articles/article9.txt'),
@@ -87,6 +96,7 @@ $articles = [
 		'likes' => 21
 	],
 	[
+		'id' => 10,
 		'title' => 'Template',
 		'image' => 'img src',
 		'content' => file_get_contents(__DIR__ . '/articles/article10.txt'),

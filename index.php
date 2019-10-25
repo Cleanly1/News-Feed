@@ -8,6 +8,7 @@ require __DIR__ . "/functions.php";
 
 //dateGet($articles[0]['date']);
 
+// 
 ?>
 
 
@@ -35,7 +36,9 @@ require __DIR__ . "/functions.php";
 		</header>
 		<article>
 			<?php foreach (sortingArrays($articles) as $article) { ?>
-				<h2><?php echo $article['title'] ?></h2>
+				<a href="article.php?id=<?php echo $article['id'] ?>" class="articleTitle">
+					<h2><?php echo $article['title'] ?></h2>
+				</a>
 				<img class="articleImages" src="<?php echo $article['image'] ?>" alt="article image">
 				<p class="articleContent"><?php echo $article['content']?> </p>
 				<div class="articleFooter">
@@ -44,13 +47,13 @@ require __DIR__ . "/functions.php";
 					<b>Published date:</b> <?php echo $date['year'] . '-' . $date['month'] . '-' . $date['day'];?>
 				</div>
 			<?php } ?>
-
+			
 		</article>
 		<footer>
-
+			
 		</footer>
 		<script type="text/javascript" src="script.js">
-
+		
 		</script>
 	</body>
 	</html>

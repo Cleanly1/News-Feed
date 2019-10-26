@@ -25,8 +25,8 @@ $articles = [
 	],
 	[
 		'id' => 2,
-		'title' => 'Template',
-		'image' => 'img src',
+		'title' => 'M/S Visborg fick tekniska problem',
+		'image' => 'images/ms-visborg.jpeg',
 		'content' => file_get_contents(__DIR__ . '/articles/article2.txt'),
 		'author' => $authors[3]['name'],
 		'date' => 20191024,

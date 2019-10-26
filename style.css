@@ -92,6 +92,7 @@ h1 {
 	background-color: #111;
 }
 .articleContent {
+	width:80%;
 	text-align: center;
 }
 .articleImages {
@@ -113,6 +114,12 @@ article {
 	width:100%;
 	height:10px;
 	
+}
+.articles {
+	width:80%;
+}
+.articleImage {
+	width:90%;
 }
 
 @media screen and (min-width: 1024px) {

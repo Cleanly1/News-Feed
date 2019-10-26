@@ -45,10 +45,14 @@ function articleGet(array $articles, int $id):array {
 	}
 }
 
-
+/**
+* Takes the first 35 characters from an article and displays it
+* @param  string $article article content
+* @return string        
+*/
 function shortenString(string $article): string {
-	if (strlen($article) > 36){
-		return substr($article,0,35).'...';
+	if (strlen($article) > 40){
+		return substr($article,0,100).'...';
 	} else {
 		return $article;
 	}

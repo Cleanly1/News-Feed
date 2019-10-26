@@ -16,5 +16,6 @@ if (isset($_GET['id'])) {
 <body>
 	<article >
 		<h2> <?php echo $article['title']; ?> </h2>
-		<?php echo $article['content']; ?>
+		<img src="<?php echo $article['image'] ?>" alt="" class="articleImage" >
+		<p class="articles"><?php echo $article['content']; ?> </p>
 	<?php require __DIR__ . '/footer.php'; ?>

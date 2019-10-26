@@ -7,24 +7,30 @@ require __DIR__ . "/data.php";
 require __DIR__ . "/functions.php";
 
 //dateGet($articles[0]['date']);
-
-// 
+//Optimera alla bilder!!
+ 
 ?>
 
 
 <?php require __DIR__ . '/head.html'; ?>
 <article>
-	<?php foreach (sortingArrays($articles) as $article) { ?>
+	<?php foreach (sortsArrays($articles) as $article) { ?>
 		<a href="article.php?id=<?php echo $article['id'] ?>" class="articleTitle">
 			<h2><?php echo $article['title'] ?></h2>
 		</a>
 		<img class="articleImages" src="<?php echo $article['image'] ?>" alt="article image">
 		<p class="articleContent"><?php echo shortenString($article['content']) ?> </p>
 		<div class="articleFooter">
-			<b>Author:</b> <?php echo $article['author'] ?>
-			<?php $date = dateGet($article['date']); ?>
-			<b>Published date:</b> <?php echo $date['year'] . '-' . $date['month'] . '-' . $date['day'];?>
-			<b>Likes:</b> <?php echo $article['likes'] ?>
+			<div>
+				<span>Author:</span> <?php echo $article['author'] ?>
+			</div>
+			<div>
+				<?php $date = dateGet($article['date']); ?>
+				<span>Published date:</span> <?php echo $date['year'] . '-' . $date['month'] . '-' . $date['day'];?>
+			</div>
+			<div>
+				<span> Likes:</span> <?php echo $article['likes'] ?>
+			</div>
 		</div>
 	<?php } ?>
 	<?php require __DIR__ . '/footer.php'; ?>

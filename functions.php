@@ -2,14 +2,13 @@
 
 declare(strict_types=1);
 
-// This is the file where you can keep all your functions. Remember to NOT
-// execute/run any functions in this file. Keep it dumb.
+
 /**
 * Sorts the articles array by date
 * @param  array $array [description]
 * @return array        [description]
 */
-function sortingArrays(array $articles): array {
+function sortsArrays(array $articles): array {
 	usort($articles, function($arrayItem1, $arrayItem2) {
 		return $arrayItem1['date'] <=> $arrayItem2['date'];
 	});
@@ -48,8 +47,8 @@ function articleGet(array $articles, int $id):array {
 
 
 function shortenString(string $article): string {
-	if (strlen($article) > 30){
-		return substr($article,0,36).'...';
+	if (strlen($article) > 36){
+		return substr($article,0,35).'...';
 	} else {
 		return $article;
 	}

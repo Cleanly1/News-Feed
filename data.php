@@ -16,8 +16,8 @@ $authors = [
 $articles = [
 	[
 		'id' => 1,
-		'title' => 'Template',
-		'image' => 'img src',
+		'title' => 'NMR-anhängare dömda',
+		'image' => '/images/nrm.jpeg',
 		'content' => file_get_contents(__DIR__ . '/articles/article1.txt'),
 		'author' => $authors[4]['name'],
 		'date' => 20191025,

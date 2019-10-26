@@ -21,7 +21,7 @@ $articles = [
 		'content' => file_get_contents(__DIR__ . '/articles/article1.txt'),
 		'author' => $authors[4]['name'],
 		'date' => 20191025,
-		'likes' => 1
+		'likes' => 10
 	],
 	[
 		'id' => 2,
@@ -30,12 +30,12 @@ $articles = [
 		'content' => file_get_contents(__DIR__ . '/articles/article2.txt'),
 		'author' => $authors[3]['name'],
 		'date' => 20191024,
-		'likes' => 1
+		'likes' => 29
 	],
 	[
 		'id' => 3,
-		'title' => 'Template',
-		'image' => 'img src',
+		'title' => 'Timbuktus panik i ”Så mycket bättre”',
+		'image' => 'images/timbuktu.jpeg',
 		'content' => file_get_contents(__DIR__ . '/articles/article3.txt'),
 		'author' => $authors[0]['name'],
 		'date' => 20191028,
@@ -97,8 +97,8 @@ $articles = [
 	],
 	[
 		'id' => 10,
-		'title' => 'Template',
-		'image' => 'img src',
+		'title' => 'Då kommer dom om kalkbrytningen i Klintehamn',
+		'image' => 'images/sma.jpeg',
 		'content' => file_get_contents(__DIR__ . '/articles/article10.txt'),
 		'author' => $authors[4]['name'],
 		'date' => 20190823,

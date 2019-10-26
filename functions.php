@@ -46,7 +46,7 @@ function articleGet(array $articles, int $id):array {
 }
 
 /**
-* Takes the first 35 characters from an article and displays it
+* Takes the first 100 characters from an article if the article is over 40 characters long
 * @param  string $article article content
 * @return string        
 */

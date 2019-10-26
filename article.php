@@ -2,12 +2,11 @@
 require __DIR__ . '/data.php';
 require __DIR__ . '/functions.php';
 
-if (isset($_GET['id'])) {
+if (isset($_GET['id']) && $_GET['id'] <= 10 ) {
 	$article = articleGet($articles, $_GET['id']);
-}
-
-
-
+}else {
+	$article = articleGet($articles, 404);
+} 
 ?>
 
 
@@ -16,6 +15,7 @@ if (isset($_GET['id'])) {
 <body>
 	<article >
 		<h2> <?php echo $article['title']; ?> </h2>
-		<img src="<?php echo $article['image'] ?>" alt="" class="articleImage" >
+		<img src="<?php echo $article['image'] ?>" alt="" class="articlePageImage" >
 		<p class="articles"><?php echo $article['content']; ?> </p>
-	<?php require __DIR__ . '/footer.php'; ?>
+
+<?php require __DIR__ . '/footer.php'; ?>

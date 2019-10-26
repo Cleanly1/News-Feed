@@ -104,4 +104,13 @@ $articles = [
 		'date' => 20190823,
 		'likes' => 0
 	],
+	[
+		'id' => 404,
+		'title' => 'ERROR',
+		'image' => 'img src',
+		'content' => file_get_contents(__DIR__ . '/articles/404.txt'),
+		'author' => $authors[4]['name'],
+		'date' => 20190823,
+		'likes' => 0
+	],
 ];

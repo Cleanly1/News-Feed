@@ -2,8 +2,8 @@
 	A Cleanly1 website copyright 2019 ©
 </footer>
 </article>
-
-<script type="text/javascript" src="script.js">
+<img class="scrollTop" src="images/arrow-up.png" alt="" onclick="scrollToTop()">
+<script src="script.js">
 
 </script>
 </body>

@@ -5,8 +5,10 @@ body {
 	overflow: scroll;
 	background-color: #ebf6f9;
 }
+
 article {
 	margin-bottom:10px;
+	font-family: 'Source Serif Pro', serif;
 	padding-bottom: 10px;
 }
 
@@ -23,6 +25,7 @@ h1 {
 	align-self: center;
 	font-family: 'Roboto Slab', serif;
 }
+
 .nav {
 	display: flex;
 	flex-flow:row nowrap;
@@ -33,24 +36,29 @@ h1 {
 	overflow: show;
 	background-color: #333;
 }
+
 .nav{
 	justify-content: space-between;
 }
+
 .linkHome {
 	text-decoration: none;
 	color: white;
 	padding: 14px 16px;
 }
+
 .linksDropdown{
 	display: block;
 	text-decoration: none;
 	color: white;
 	padding: 14px 50px;
 }
+
 .liIteamDropdown {
 	text-align: center;
 	list-style-type: none;
 }
+
 .liiteam {
 	display: block;
 	color: white;
@@ -63,6 +71,7 @@ h1 {
 .liiteam a:hover {
 	background-color: #111;
 }
+
 .dropdown {
 	position: relative;
 	color: white;
@@ -81,23 +90,36 @@ h1 {
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
 }
+
 .dropdown:hover {
 	display: block;
 	background-color: #111;
 }
+
 .dropdown:hover .dropdown-content {
 	display: block;
 }
+
 .linksDropdown:hover {
 	background-color: #111;
 }
+
 .articleContent {
 	width:80%;
 	text-align: center;
 }
+
+.articleImagesA {
+	display:flex;
+	align-self: center;
+	justify-content: center;
+}
+
 .articleImages {
+	align-self: center;
 	width:45%;
 }
+
 article {
 	box-shadow: 0px 3px 50px 0px rgba(0,0,0,0.5);
 	background-color: lightblue;
@@ -105,21 +127,40 @@ article {
 	border-left: 3px solid #333;
 	border-right: 3px solid #333;
 }
+
 .articleTitle {
 	text-decoration: none;
 	
 }
+
 .borderBottom {
 	margin-top:20px;
 	width:100%;
 	height:10px;
 	
 }
+
 .articles {
 	width:80%;
+	font-family: 'Source Serif Pro', serif;
 }
-.articleImage {
-	width:90%;
+
+.articlePageImage {
+	width:50%;
+}
+
+.scrollTop {
+	display: none;
+	position: fixed;
+	bottom: 5px;
+	right: 10px;
+	width:30px;
+	background-color: #ebf6f9;
+	border-radius: 100px;
+}
+	
+.scrollTop:hover {
+	cursor: pointer;
 }
 
 @media screen and (min-width: 1024px) {
@@ -159,7 +200,10 @@ article {
 	span{
 		font-weight: bold;
 	}
-
+	.scrollTop {
+		width:50px;
+	}
+	
 }
 
 @media screen and (max-width: 1024px) {
@@ -168,7 +212,7 @@ article {
 		display: flex;
 		flex-flow: column;
 	}
-
+	
 	article {
 		display:flex;
 		align-self: center;
@@ -196,7 +240,10 @@ article {
 		background-color: #333;
 		width: 100%;
 	}
-
+	.scrollTop {
+		width:40px;
+		}
+	
 }
 
 @media screen and (max-width: 850px) {
@@ -234,7 +281,10 @@ article {
 		background-color: #333;
 		width: 100%;
 	}
-
+	.scrollTop {
+		width:35px;
+		}
+	
 }
 
 @media screen and (max-width: 768px) {
@@ -271,7 +321,7 @@ article {
 		background-color: #333;
 		width: 100%;
 	}
-
+	
 }
 
 @media screen and (max-width: 600px) {
@@ -280,7 +330,7 @@ article {
 		display: flex;
 		flex-flow: column;
 	}
-
+	
 	article {
 		display:flex;
 		align-self: center;
@@ -308,7 +358,7 @@ article {
 		background-color: #333;
 		width: 100%;
 	}
-
+	
 }
 
 @media screen and (max-width: 500px) {
@@ -320,7 +370,7 @@ article {
 	.articleImages {
 		width:50%;
 	}
-
+	
 	article {
 		display:flex;
 		align-self: center;
@@ -348,7 +398,7 @@ article {
 		background-color: #333;
 		width: 100%;
 	}
-
+	
 }
 
 @media screen and (max-width: 411px) {
@@ -360,7 +410,7 @@ article {
 	h1 {
 		font-size: 24px;
 	}
-
+	
 	article {
 		display:flex;
 		align-self: center;
@@ -388,7 +438,7 @@ article {
 		background-color: #333;
 		width: 100%;
 	}
-
+	
 }
 @media screen and (max-width: 340px) {
 	body {
@@ -399,7 +449,7 @@ article {
 	h1 {
 		font-size: 20px;
 	}
-
+	
 	article {
 		display:flex;
 		align-self: center;
@@ -427,5 +477,5 @@ article {
 		background-color: #333;
 		width: 100%;
 	}
-
+	
 }

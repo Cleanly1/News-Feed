@@ -28,13 +28,13 @@ function dateGet(string $date): array {
 	'month' => implode('', array_splice($dateSeperated,4,2)),
 	'year' => implode('', array_splice($dateSeperated,0,4)),];
 	
-	return array_reverse($dateFinsihed);
+	return $dateFinsihed;
 }
 
 /**
 * Gets the individual article from its id
 * @param  array $articles article array
-* @param  int $id the date
+* @param  int $id articles id
 * @return array        
 */
 function articleGet(array $articles, int $id):array {

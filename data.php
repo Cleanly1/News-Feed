@@ -70,8 +70,8 @@ $articles = [
 	],
 	[
 		'id' => 7,
-		'title' => 'Template',
-		'image' => 'img src',
+		'title' => '"En filmkväll kan sluta i en urspårad fest"',
+		'image' => 'images/dricka.jpeg',
 		'content' => file_get_contents(__DIR__ . '/articles/article7.txt'),
 		'author' => $authors[0]['name'],
 		'date' => 20191023,
@@ -88,8 +88,8 @@ $articles = [
 	],
 	[
 		'id' => 9,
-		'title' => 'Template',
-		'image' => 'img src',
+		'title' => 'Eric, 24, blev världens rikaste över en natt',
+		'image' => 'images/ericTse.jpeg',
 		'content' => file_get_contents(__DIR__ . '/articles/article9.txt'),
 		'author' => $authors[2]['name'],
 		'date' => 20191029,

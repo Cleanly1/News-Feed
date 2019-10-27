@@ -113,11 +113,12 @@ h1 {
 	display:flex;
 	align-self: center;
 	justify-content: center;
+	width:45%
 }
 
 .articleImages {
 	align-self: center;
-	width:45%;
+	width:100%;
 }
 
 article {

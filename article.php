@@ -2,9 +2,9 @@
 require __DIR__ . '/data.php';
 require __DIR__ . '/functions.php';
 
-if (isset($_GET['id']) && $_GET['id'] <= 10 ) {
+if (isset($_GET['id']) && $_GET['id'] <= 10 && $_GET['id'] > 0) {
     $article = articleGet($articles, $_GET['id']);
-}else {
+}elseif(!isset($_GET['id']) || $_GET['id'] > 10 || $_GET['id'] < 1) {
     $article = articleGet($articles, 404);
 }
 $date = dateGet($article['date']);

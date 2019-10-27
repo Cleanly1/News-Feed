@@ -21,7 +21,7 @@ $articles = [
 		'content' => file_get_contents(__DIR__ . '/articles/article1.txt'),
 		'author' => $authors[4]['name'],
 		'date' => 20191025,
-		'likes' => 10
+		'likes' => random_int(0,1000)
 	],
 	[
 		'id' => 2,
@@ -30,7 +30,7 @@ $articles = [
 		'content' => file_get_contents(__DIR__ . '/articles/article2.txt'),
 		'author' => $authors[3]['name'],
 		'date' => 20191024,
-		'likes' => 29
+		'likes' => random_int(0,1000)
 	],
 	[
 		'id' => 3,
@@ -39,7 +39,7 @@ $articles = [
 		'content' => file_get_contents(__DIR__ . '/articles/article3.txt'),
 		'author' => $authors[0]['name'],
 		'date' => 20191028,
-		'likes' => 80
+		'likes' => random_int(0,1000)
 	],
 	[
 		'id' => 4,
@@ -48,7 +48,7 @@ $articles = [
 		'content' => file_get_contents(__DIR__ . '/articles/article4.txt'),
 		'author' => $authors[2]['name'],
 		'date' => 20191030,
-		'likes' => 99999
+		'likes' => random_int(0,10000)
 	],
 	[
 		'id' => 5,
@@ -57,7 +57,7 @@ $articles = [
 		'content' => file_get_contents(__DIR__ . '/articles/article5.txt'),
 		'author' => $authors[3]['name'],
 		'date' => 20191025,
-		'likes' => 23
+		'likes' => random_int(0,1000)
 	],
 	[
 		'id' => 6,
@@ -66,7 +66,7 @@ $articles = [
 		'content' => file_get_contents(__DIR__ . '/articles/article6.txt'),
 		'author' => $authors[1]['name'],
 		'date' => 20191023,
-		'likes' => 56
+		'likes' => random_int(0,1000)
 	],
 	[
 		'id' => 7,
@@ -75,7 +75,7 @@ $articles = [
 		'content' => file_get_contents(__DIR__ . '/articles/article7.txt'),
 		'author' => $authors[0]['name'],
 		'date' => 20191023,
-		'likes' => 69
+		'likes' => random_int(0,1000)
 	],
 	[
 		'id' => 8,
@@ -84,7 +84,7 @@ $articles = [
 		'content' => file_get_contents(__DIR__ . '/articles/article8.txt'),
 		'author' => $authors[1]['name'],
 		'date' => 20191023,
-		'likes' => 1
+		'likes' => random_int(0,1000)
 	],
 	[
 		'id' => 9,
@@ -93,7 +93,7 @@ $articles = [
 		'content' => file_get_contents(__DIR__ . '/articles/article9.txt'),
 		'author' => $authors[2]['name'],
 		'date' => 20191029,
-		'likes' => 21
+		'likes' => random_int(0,1000)
 	],
 	[
 		'id' => 10,
@@ -102,7 +102,7 @@ $articles = [
 		'content' => file_get_contents(__DIR__ . '/articles/article10.txt'),
 		'author' => $authors[4]['name'],
 		'date' => 20190823,
-		'likes' => 0
+		'likes' => random_int(0,1000)
 	],
 	[
 		'id' => 404,
@@ -110,7 +110,7 @@ $articles = [
 		'image' => 'img src',
 		'content' => file_get_contents(__DIR__ . '/articles/404.txt'),
 		'author' => $authors[4]['name'],
-		'date' => 20190823,
+		'date' => 11111111,
 		'likes' => 0
 	],
 ];

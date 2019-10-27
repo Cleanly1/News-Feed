@@ -7,14 +7,16 @@ if (isset($_GET['id']) && $_GET['id'] <= 10 ) {
 }else {
 	$article = articleGet($articles, 404);
 } 
+ $date = dateGet($article['date']); 
 ?>
 
 
 <?php require __DIR__ . '/head.html'; ?>
 
 <body>
-	<article >
-		<h2> <?php echo $article['title']; ?> </h2>
+	<article>
+		<p class="date"><?php echo $date['year'] . '-' . $date['month'] . '-' . $date['day'];?></p>
+		<h2 class="articleTitle"> <?php echo $article['title']; ?> </h2>
 		<img src="<?php echo $article['image'] ?>" alt="" class="articlePageImage" >
 		<p class="articles"><?php echo $article['content']; ?> </p>
 

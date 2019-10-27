@@ -25,6 +25,9 @@ h1 {
 	align-self: center;
 	font-family: 'Roboto Slab', serif;
 }
+h2 {
+	text-align: center;
+}
 
 .nav {
 	display: flex;
@@ -131,7 +134,7 @@ article {
 
 .articleTitle {
 	text-decoration: none;
-	
+	margin:0;
 }
 
 .borderBottom {
@@ -147,6 +150,7 @@ article {
 }
 
 .articlePageImage {
+	margin-top: 10px;
 	width:50%;
 }
 
@@ -163,7 +167,14 @@ article {
 .scrollTop:hover {
 	cursor: pointer;
 }
-
+.date {
+	align-self: flex-start;
+	justify-content: flex-start;
+	margin:0;
+	margin-left: 20px;
+	margin-top: 20px;
+	
+}
 @media screen and (min-width: 1024px) {
 	body {
 		margin:0;
@@ -332,6 +343,9 @@ article {
 		display: flex;
 		flex-flow: column;
 	}
+	h2 {
+		font-size: 20px;
+	}
 	
 	article {
 		display:flex;
@@ -412,6 +426,10 @@ article {
 	h1 {
 		font-size: 24px;
 	}
+	h2 {
+		text-align: center;
+		font-size: 18px;
+	}
 	
 	article {
 		display:flex;
@@ -451,6 +469,9 @@ article {
 	h1 {
 		font-size: 20px;
 	}
+	h2 {
+		font-size: 16px;
+	}
 	
 	article {
 		display:flex;
@@ -479,5 +500,6 @@ article {
 		background-color: #333;
 		width: 100%;
 	}
+	
 	
 }

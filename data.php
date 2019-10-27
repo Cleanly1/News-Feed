@@ -52,8 +52,8 @@ $articles = [
 	],
 	[
 		'id' => 5,
-		'title' => 'Template',
-		'image' => 'img src',
+		'title' => 'Slog hål i vägg – döms för skadegörelse',
+		'image' => 'images/gotlands-tingsratt.jpeg',
 		'content' => file_get_contents(__DIR__ . '/articles/article5.txt'),
 		'author' => $authors[3]['name'],
 		'date' => 20191025,
@@ -61,8 +61,8 @@ $articles = [
 	],
 	[
 		'id' => 6,
-		'title' => 'Template',
-		'image' => 'img src',
+		'title' => 'Stort polisbeslag av blöjor',
+		'image' => 'images/blojor.jpeg',
 		'content' => file_get_contents(__DIR__ . '/articles/article6.txt'),
 		'author' => $authors[1]['name'],
 		'date' => 20191023,
@@ -79,8 +79,8 @@ $articles = [
 	],
 	[
 		'id' => 8,
-		'title' => 'Template',
-		'image' => 'img src',
+		'title' => 'Brand i Uppsala – riskerades sprida till bostadshus',
+		'image' => 'images/brand.jpeg',
 		'content' => file_get_contents(__DIR__ . '/articles/article8.txt'),
 		'author' => $authors[1]['name'],
 		'date' => 20191023,

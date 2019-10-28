@@ -8,7 +8,7 @@ const displayScroll = function() {
 }
 
 const scrollToTop = function() {
-	
+
 	window.scrollTo({
   top: 0,
   left: 0,
@@ -17,3 +17,5 @@ const scrollToTop = function() {
 }
 
 window.onscroll = displayScroll;
+
+window.document.getElementsByClassName('scrollTop')[0].addEventListener("click", scrollToTop);

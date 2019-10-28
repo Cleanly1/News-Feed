@@ -34,4 +34,5 @@ require __DIR__ . "/functions.php";
             </div>
         <?php } ?>
     <?php } ?>
+
     <?php require __DIR__ . '/footer.php'; ?>

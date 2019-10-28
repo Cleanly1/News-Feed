@@ -1,6 +1,7 @@
 # Plain News
 This is a repository for the Plain News assignment
 
+
 # How to install
 1. Clone the repository 
 ```

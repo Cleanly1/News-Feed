@@ -124,6 +124,7 @@ h2 {
   width:100%;
 }
 
+
 article {
   box-shadow: 0px 3px 50px 0px rgba(0,0,0,0.5);
   background-color: lightblue;
@@ -190,7 +191,7 @@ article {
     align-items: center;
     margin-top:130px;
     font-size: 20px;
-    width:900px;
+
   }
   footer {
     display: flex;
@@ -215,6 +216,15 @@ article {
   .scrollTop {
     width:50px;
   }
+  .articleDiv {
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    font-size: 20px;
+    width:900px;
+  }
 
 
 }
@@ -233,8 +243,7 @@ article {
     flex-flow: column wrap;
     align-items: center;
     margin-top:130px;
-    font-size: 20px;
-    width:800px;
+
   }
   footer {
     display: flex;
@@ -256,6 +265,15 @@ article {
   .scrollTop {
     width:40px;
   }
+  .articleDiv {
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    font-size: 20px;
+    width:800px;
+  }
 
 }
 
@@ -272,9 +290,7 @@ article {
     justify-content: center;
     flex-flow: column wrap;
     align-items: center;
-    margin-top:130px;
-    font-size: 20px;
-    width:700px;
+    margin-top: 130px;
     box-shadow: 0px 3px 40px 0px rgba(0,0,0,0.5);
   }
   footer {
@@ -298,6 +314,15 @@ article {
     width:35px;
     cursor: pointer;
   }
+  .articleDiv {
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    font-size: 20px;
+    width:700px;
+  }
 
 }
 
@@ -313,9 +338,7 @@ article {
     justify-content: center;
     flex-flow: column wrap;
     align-items: center;
-    margin-top:130px;
-    font-size: 20px;
-    width:550px;
+    margin-top: 130px;
     box-shadow: 0px 3px 40px 0px rgba(0,0,0,0.5);
   }
   footer {
@@ -334,6 +357,15 @@ article {
     color: lightblue;
     background-color: #333;
     width: 100%;
+  }
+  .articleDiv {
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    font-size: 20px;
+    width:550px;
   }
 
 }
@@ -354,10 +386,9 @@ article {
     justify-content: center;
     flex-flow: column wrap;
     align-items: center;
-    margin-top:130px;
-    font-size:16px;
-    width:450px;
+    margin-top: 130px;
   }
+
   footer {
     display: flex;
     justify-content: center;
@@ -375,6 +406,15 @@ article {
     background-color: #333;
     width: 100%;
   }
+  .articleDiv {
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    font-size: 16px;
+    width: 450px;
+  }
 
 }
 
@@ -387,6 +427,9 @@ article {
   .articleImages {
     width:50%;
   }
+  .articleImagesA {
+    width:70%;
+  }
 
   article {
     display:flex;
@@ -394,9 +437,7 @@ article {
     justify-content: center;
     flex-flow: column wrap;
     align-items: center;
-    margin-top:130px;
-    font-size:14px;
-    width:400px;
+    margin-top: 130px;
   }
   footer {
     display: flex;
@@ -415,10 +456,19 @@ article {
     background-color: #333;
     width: 100%;
   }
+  .articleDiv {
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    font-size:14px;
+    width:400px;
+  }
 
 }
 
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 425px) {
   body {
     margin:0;
     display: flex;
@@ -431,6 +481,9 @@ article {
     text-align: center;
     font-size: 18px;
   }
+  .articleImagesA {
+    width:75%;
+  }
 
   article {
     display:flex;
@@ -438,9 +491,9 @@ article {
     justify-content: center;
     flex-flow: column wrap;
     align-items: center;
-    margin-top:110px;
-    font-size:12px;
-    width:300px;
+    margin-top: 110px;
+    width:100%;
+    border:none;
   }
   footer {
     display: flex;
@@ -458,6 +511,15 @@ article {
     color: lightblue;
     background-color: #333;
     width: 100%;
+  }
+  .articleDiv {
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    font-size:12px;
+    width:100%;
   }
 
 }
@@ -473,6 +535,9 @@ article {
   h2 {
     font-size: 16px;
   }
+  .articleImagesA {
+    width:75%;
+  }
 
   article {
     display:flex;
@@ -480,15 +545,14 @@ article {
     justify-content: center;
     flex-flow: column wrap;
     align-items: center;
-    margin-top:99px;
-    font-size:12px;
-    width:300px;
+    margin-top: 99px;
+    width:100%;
   }
   footer {
     display: flex;
     justify-content: center;
     align-self: center;
-    width:300px;
+    width:100%;
     margin-top:20px;
     bottom:0;
     background-color: lightblue;
@@ -500,6 +564,15 @@ article {
     color: lightblue;
     background-color: #333;
     width: 100%;
+  }
+  .articleDiv {
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    font-size:12px;
+    width:100%;
   }
 
 

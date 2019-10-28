@@ -1,5 +1,5 @@
 <footer>
-	A Cleanly1 website copyright 2019 ©
+    A Cleanly1 website copyright 2019 ©
 </footer>
 </article>
 

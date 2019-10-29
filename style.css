@@ -86,7 +86,7 @@ h2 {
   padding: 14px 16px;
 }
 
-.dropdown-content {
+.dropdownContent {
   display: none;
   position: absolute;
   background-color: gray;
@@ -104,7 +104,7 @@ h2 {
   background-color: #111;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdownContent {
   display: block;
 }
 

@@ -16,7 +16,7 @@ function sortsArrays(array $articles): array {
 }
 
 
-//use intval() to convert the string to int
+
 /**
 * Seperates the date int value to to seperate string values
 * @param  string $date the date

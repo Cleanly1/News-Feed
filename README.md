@@ -1,6 +1,11 @@
 # Plain News
 This is a repository for the Plain News assignment
 
+# Built with
+* PHP
+* HTML
+* CSS
+* Javascript
 
 # How to install
 1. Clone the repository 
@@ -19,3 +24,9 @@ php -S localhost:8000
 [Viktor Sjöblom](https://github.com/ViktorSjoblom)
 
 # Code Reviews
+
+
+# License
+This project is licensed under the MIT License - see the LICENSE file for details
+
+YRGO 2019

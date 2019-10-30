@@ -22,6 +22,7 @@ php -S localhost:8000
 
 # Testers
 [Viktor Sjöblom](https://github.com/ViktorSjoblom)
+[Jesper Lundqvist](https://github.com/jesperlndqvst)
 
 # Code Reviews
 

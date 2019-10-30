@@ -1,15 +1,9 @@
 <?php
-
-
-require __DIR__ . "/data.php";
-require __DIR__ . "/functions.php";
-
-
-
+require __DIR__ . '/head.php';
 ?>
 
 
-<?php require __DIR__ . '/head.html'; ?>
+
 <article>
     <?php foreach (sortsArrays($articles) as $article) { ?>
 
@@ -21,14 +15,13 @@ require __DIR__ . "/functions.php";
                 <a href="article.php?id=<?php echo $article['id'] ?>" class="articleImagesA">
                     <img class="articleImages" src="<?php echo $article['image'] ?>" alt="article image">
                 </a>
-                <p class="articleContent"><?php echo shortenString($article['content']) ?> </p>
+                <p class="articleContent"><?php echo shortenContent($article['content']) ?> </p>
                 <div class="articleFooter">
                     <div>
                         <span>Author:</span> <?php echo $article['author'] ?>
                     </div>
                     <div>
-                        <?php $date = dateGet($article['date']); ?>
-                        <span>Published date:</span> <?php echo $date;?>
+                        <span>Published date:</span> <?php echo dateGet($article['date']);?>
                     </div>
                     <div>
                         <span> Likes:</span> <?php echo $article['likes'] ?>

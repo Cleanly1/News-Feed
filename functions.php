@@ -18,9 +18,9 @@ function sortsArrays(array $articles): array {
 
 
 /**
-* Seperates the date int value to to seperate string values
-* @param  string $date the date
-* @return array
+* Converts article dates to date
+* @param  int $date the date
+* @return string
 */
 function dateGet(int $date): string {
     return date('d-m-Y', $date);
@@ -45,7 +45,7 @@ function articleGet(array $articles, int $id):array {
 * @param  string $article article content
 * @return string
 */
-function shortenString(string $article): string {
+function shortenContent(string $article): string {
     if (strlen($article) > 40){
         return substr($article,0,100).'...';
     } else {

@@ -22,13 +22,8 @@ function sortsArrays(array $articles): array {
 * @param  string $date the date
 * @return array
 */
-function dateGet(string $date): array {
-    $dateSeperated = str_split($date);
-    $dateFinsihed = [ 'day' => implode('', array_splice($dateSeperated,6,2)),
-    'month' => implode('', array_splice($dateSeperated,4,2)),
-    'year' => implode('', array_splice($dateSeperated,0,4)),];
-
-    return $dateFinsihed;
+function dateGet(int $date): string {
+    return date('d-m-Y', $date);
 }
 
 /**

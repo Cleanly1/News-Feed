@@ -20,7 +20,7 @@ $articles = [
         'image' => '/images/nrm.jpeg',
         'content' => file_get_contents(__DIR__ . '/articles/article1.txt'),
         'author' => $authors[4]['name'],
-        'date' => 20191025,
+        'date' => strtotime('25 Oct 2019'),
         'likes' => random_int(0,1000)
     ],
     [
@@ -29,7 +29,7 @@ $articles = [
         'image' => 'images/ms-visborg.jpeg',
         'content' => file_get_contents(__DIR__ . '/articles/article2.txt'),
         'author' => $authors[3]['name'],
-        'date' => 20191024,
+        'date' => strtotime('24 Oct 2019'),
         'likes' => random_int(0,1000)
     ],
     [
@@ -38,7 +38,7 @@ $articles = [
         'image' => 'images/timbuktu.jpeg',
         'content' => file_get_contents(__DIR__ . '/articles/article3.txt'),
         'author' => $authors[0]['name'],
-        'date' => 20191028,
+        'date' => strtotime('28 Oct 2019'),
         'likes' => random_int(0,1000)
     ],
     [
@@ -47,7 +47,7 @@ $articles = [
         'image' => '/images/vinkla.png',
         'content' => file_get_contents(__DIR__ . '/articles/article4.txt'),
         'author' => $authors[2]['name'],
-        'date' => 20191030,
+        'date' => strtotime('30 Oct 2019'),
         'likes' => random_int(0,10000)
     ],
     [
@@ -56,7 +56,7 @@ $articles = [
         'image' => 'images/gotlands-tingsratt.jpeg',
         'content' => file_get_contents(__DIR__ . '/articles/article5.txt'),
         'author' => $authors[3]['name'],
-        'date' => 20191025,
+        'date' => strtotime('25 Oct 2019'),
         'likes' => random_int(0,1000)
     ],
     [
@@ -65,7 +65,7 @@ $articles = [
         'image' => 'images/blojor.jpeg',
         'content' => file_get_contents(__DIR__ . '/articles/article6.txt'),
         'author' => $authors[1]['name'],
-        'date' => 20191023,
+        'date' => strtotime('23 Oct 2019'),
         'likes' => random_int(0,1000)
     ],
     [
@@ -74,7 +74,7 @@ $articles = [
         'image' => 'images/dricka.jpeg',
         'content' => file_get_contents(__DIR__ . '/articles/article7.txt'),
         'author' => $authors[0]['name'],
-        'date' => 20191023,
+        'date' => strtotime('23 Oct 2019'),
         'likes' => random_int(0,1000)
     ],
     [
@@ -83,7 +83,7 @@ $articles = [
         'image' => 'images/brand.jpeg',
         'content' => file_get_contents(__DIR__ . '/articles/article8.txt'),
         'author' => $authors[1]['name'],
-        'date' => 20191023,
+        'date' => strtotime('23 Oct 2019'),
         'likes' => random_int(0,1000)
     ],
     [
@@ -92,7 +92,7 @@ $articles = [
         'image' => 'images/ericTse.jpeg',
         'content' => file_get_contents(__DIR__ . '/articles/article9.txt'),
         'author' => $authors[2]['name'],
-        'date' => 20191029,
+        'date' => strtotime('29 Oct 2019'),
         'likes' => random_int(0,1000)
     ],
     [
@@ -101,7 +101,7 @@ $articles = [
         'image' => 'images/sma.jpeg',
         'content' => file_get_contents(__DIR__ . '/articles/article10.txt'),
         'author' => $authors[4]['name'],
-        'date' => 20190823,
+        'date' => strtotime('23 Aug 2019'),
         'likes' => random_int(0,1000)
     ],
     [

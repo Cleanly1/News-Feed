@@ -16,7 +16,7 @@ $date = dateGet($article['date']);
 <body>
     <article>
         <div class="articleDiv">
-            <p class="date"><?php echo $date['year'] . '-' . $date['month'] . '-' . $date['day'];?></p>
+            <p class="date"><?php echo $date;?></p>
             <h2 class="articleTitle"> <?php echo $article['title']; ?> </h2>
             <img src="<?php echo $article['image'] ?>" alt="" class="articlePageImage" >
             <p class="articles"><?php echo $article['content']; ?> </p>

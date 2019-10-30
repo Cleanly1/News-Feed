@@ -28,7 +28,7 @@ require __DIR__ . "/functions.php";
                     </div>
                     <div>
                         <?php $date = dateGet($article['date']); ?>
-                        <span>Published date:</span> <?php echo $date['year'] . '-' . $date['month'] . '-' . $date['day'];?>
+                        <span>Published date:</span> <?php echo $date;?>
                     </div>
                     <div>
                         <span> Likes:</span> <?php echo $article['likes'] ?>

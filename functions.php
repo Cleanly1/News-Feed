@@ -41,12 +41,12 @@ function articleGet(array $articles, int $id):array {
 }
 
 /**
-* Takes the first 100 characters from an article if the article is over 40 characters long
+* Prints the first 100 characters from an article if the article is over 100 characters long
 * @param  string $article article content
 * @return string
 */
 function shortenContent(string $article): string {
-    if (strlen($article) > 40){
+    if (strlen($article) > 100){
         return substr($article,0,100).'...';
     } else {
         return $article;

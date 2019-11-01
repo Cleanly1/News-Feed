@@ -1,7 +1,7 @@
-The infamous hacker vinkla have done another IT-heist
+The infamous hacker "vinkla" has struck again with another IT-heist.
 <br><br>
-A company have reported user information stolen from their database while doing regular maintenance on their servers.
+An anonymous company has reported user information stolen from their database while doing regular maintenance on their servers.
 A hacker going by the name vinkla has taken responsibility for the attack and has released a statement regarding why he did it.
 <br><br>
 -I did it because i could! But the information is safe with me and are not going to get sold or forwarded to anyone. <br>
-I wanted to show how easy you could steal information if you don´t use the right protection. 
+I wanted to show how easy you could steal information if you don´t use the right protection.
